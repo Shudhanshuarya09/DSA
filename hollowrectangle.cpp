@@ -1,9 +1,10 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
     // int col;
-    for (int row = 0; row < 3; row = row + 1)
+    for (int row=0; row<3; row=row+1)
     {
     if( row == 0 || row == 2)
     {
@@ -16,7 +17,7 @@ int main()
     else
         {
             cout<<" * ";
-            for (int i=1; i<4; i=i+1)
+            for (int i=0; i<3; i=i+1)
             {
                 cout<<" ";
             }
@@ -27,4 +28,5 @@ int main()
         
     }
     
+
 }
