@@ -10,18 +10,18 @@ int main()
     {
         for (int col=0; col<5; col=col+1 )
         {
-            cout<<" * ";
+            cout<< "* ";
         }
         
     }
     else
         {
-            cout<<" * ";
-            for (int i=0; i<3; i=i+1)
+            cout<< "* ";
+            for (int i=1; i<4; i=i+1)
             {
-                cout<<" ";
+                cout<< "  ";
             }
-            cout<<" * ";
+            cout<< "* ";
             
         }
         cout<<endl;
