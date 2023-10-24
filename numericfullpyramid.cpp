@@ -13,7 +13,7 @@ int main()
         cout<<1;
         for(int col=0; col<row+2; row++)
         {
-            cout<<"row+col+1";
+            cout<<"* ";
 
         }
         cout<<endl;
