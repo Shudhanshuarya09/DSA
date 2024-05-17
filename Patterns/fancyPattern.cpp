@@ -45,7 +45,7 @@ for (int row =0; row<n; row++)
     for (int col = 0; col<n-row; col++)
     {
       cout<<n-row ;
-       if(col!=row)
+       if(col!=n-row-1)
       cout<<"*";
     }
     cout<<endl;
