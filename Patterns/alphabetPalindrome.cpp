@@ -12,7 +12,7 @@ int main()
     for(col=0; col<row+1; col++)
     {
       int ans = col + 1;
-      char ch = ans + 'A' - 1;
+      char ch = ans + 'G' - 1;
       cout<<ch;
     }
 
@@ -20,7 +20,7 @@ int main()
     for (int col =row; col>=1; col--)
     {
       int ans =col;
-      char ch = ans + 'A' -1;
+      char ch = ans + 'G' -1;
       cout<<ch;
     }
     cout<<endl;
