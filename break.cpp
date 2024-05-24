@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
+  
 
+  int raja = 420;  //ye global variable hai
 int main()
 {
   // int n =6;
