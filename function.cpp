@@ -22,9 +22,12 @@ int findMax(int num1, int num2, int num3)
 
 int main()
 {
-int a,b,c;
-cin>>a>>b>>c;
+// int a,b,c;
+// cin>>a>>b>>c;
 
-int maximumNumber = findMax(a,b,c);
-cout<< maximumNumber <<endl;
+// int maximumNumber = findMax(a,b,c);
+// cout<< maximumNumber <<endl;
+
+
+//grade problem
 }
