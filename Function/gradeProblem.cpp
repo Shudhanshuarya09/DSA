@@ -29,7 +29,7 @@ char getGrade(int marks)
 int main()
 {
   int marks;
-  cout << "Enter the marks of student " << endl;
+  cout << "Enter the marks of the student " << endl;
   cin >> marks;
 
   char finalGrade = getGrade(marks);
