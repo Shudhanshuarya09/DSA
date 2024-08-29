@@ -1,19 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int pi = 3.214;
-int area(int r)
+float pi = 3.214;
+int area( int r)
 {
-  area = pi*r*r;
+  float result = pi*r*r;
+  return result;
 }
 
 int main()
 {
   int r;
-  cout << "Enter the value of Rsdius : " <<endl;
+  cout << "Enter the value of Radius : " <<endl;
   cin >> r;
 
-  int result = area(r);
+  float answer = area(r);
+  cout << answer << endl;
 
   return 0;
+
 }
