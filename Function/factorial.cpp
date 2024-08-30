@@ -3,13 +3,13 @@ using namespace std;
 
 int factoo(int n)
 {
-  int fact = 1;
+  int factii = 1;
 
   for (int i = 1; i <= n; i++)
   {
-    fact = fact * i;
+    factii = factii * i;
   }
-  return fact;
+  return factii;
 }
 
 int main()
