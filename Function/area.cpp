@@ -2,7 +2,7 @@
 using namespace std;
 
 float pi = 3.214;
-int area( int r)
+float area( float r)
 {
   float result = pi*r*r;
   return result;

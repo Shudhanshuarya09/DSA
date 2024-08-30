@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n)
+int factoo(int n)
 {
-  for (int i = n; i>=0; i=(n-1))
+  int fact = 1;
+
+  for (int i = 1; i <= n; i++)
   {
-    cout << (n * 1) ;
+    fact = fact * i;
   }
-  cout << endl;
+  return fact;
 }
 
 int main()
@@ -17,7 +19,6 @@ int main()
   cout << "Enter the number: " << endl;
   cin >> n;
 
-  int result = factorial(n);
-  cout << result << end;
-  return 0;
+  int result = factoo(n);
+  cout << result << endl;
 }
