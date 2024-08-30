@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int primeNumber(int n)
+{
+  for (int i = 2; i <= n; i++)
+  {
+
+    if (i % i == 0 & i % 1 == 0 & i % 2 != 0 & i % 3 != 0 & i % 5 != 0)
+    {
+      cout << i << endl;
+    }
+
+    // else
+    // {
+    //   cout << "Not Prime" << endl;
+    // }
+  }
+}
+
+int main()
+{
+  int n;
+  cout << "Enter the number:" << endl;
+  cin >> n;
+
+  int result = primeNumber(n);
+  cout << result << endl;
+}
