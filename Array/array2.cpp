@@ -11,7 +11,7 @@ for(int i=0; i<10; i++)
 {
   cin >> arr[i] ;
 }
-cout << "givve numbers" << endl;
+cout << "give numbers" << endl;
 //printing
 cout << "printing the values in array " << endl;
 for(int i=0; i<10; i++)
