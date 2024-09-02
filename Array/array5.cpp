@@ -15,7 +15,7 @@ int main()
     // if zero found increment numZero
     if (arr[i] == 0)
     {
-      numZero++;
+      numZeo++;
     }
     // if one found increment numOne
     if (arr[i] == 1)
