@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-// QUESTION - PRINTING ALL ARRAT IN THE MULTIPLE OF 2
+// QUESTION - PRINTING ALL ARRAY IN THE MULTIPLE OF 2
 
 //   int arr[100];
 //   int n;
